@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Scientist Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gray-800 text-white text-center p-4">
+        <h1 class="text-4xl">Ismael Sulpicio G. Zarate</h1>
+        <img src="assets/sdasdasdasdasdad.jpg" alt="Profile Picture" class="mx-auto rounded-full w-32 h-32 mt-4">
+        <p class="text-xl">Computer Scientist</p>
+    </header>
+    <nav class="bg-gray-700 text-white p-2">
+        <ul class="flex justify-center space-x-4">
+            <li><a href="#about" class="hover:underline">About Me</a></li>
+            <li><a href="#projects" class="hover:underline">Projects</a></li>
+            <li><a href="#education" class="hover:underline">Education</a></li>
+            <li><a href="#skills" class="hover:underline">Skills</a></li>
+            <li><a href="#contacts" class="hover:underline">Contacts</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="max-w-4xl mx-auto p-4 bg-white shadow-md mt-4">
+        <h2 class="text-2xl border-b-2 border-gray-800 pb-2">About Me</h2>
+        <p class="mt-2">Welcome to my portfolio! I am a passionate computer scientist (soon to be) with expertise in creating and analyzing algorithms, automata theories, and machine learning. I create innovative solutions for complex problems.</p>
+    </section>
+    <section id="projects" class="max-w-4xl mx-auto p-4 bg-white shadow-md mt-4">
+        <h2 class="text-2xl border-b-2 border-gray-800 pb-2">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow-md">
+                <div class="relative carousel-container">
+                    <img src="assets/project1.png" alt="Project 1 Screenshot 1" class="w-full h-48 object-cover rounded carousel-item">
+                    <button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-l prev">&#10094;</button>
+                    <button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-r next">&#10095;</button>
+                </div>
+                <h3 class="text-xl mt-2">USTP Freedom Wall</h3>
+                <p class="mt-1">A website built in PHP that mimics the FB page of USTP Freedom Wall.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md">
+                <div class="relative carousel-container">
+                    <img src="assets/project2.png" alt="Project 2 Screenshot 1" class="w-full h-48 object-cover rounded carousel-item">
+                    <img src="assets/project2_1.png" alt="Project 2 Screenshot 2" class="w-full h-48 object-cover rounded carousel-item hidden">
+                    <button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-l prev">&#10094;</button>
+                    <button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-r next">&#10095;</button>
+                </div>
+                <h3 class="text-xl mt-2">Viel Hybrid Search Algorithm</h3>
+                <p class="mt-1">Maximizing the Efficiency of Binary and Flexibility of Linear Search Algorithms. The Viel Search Algorithm combines the efficiency of Binary Search with the flexibility of Linear Search, dynamically selecting between them based on the input data's characteristics.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md">
+                <div class="relative carousel-container">
+                    <img src="assets/project3_1.png" alt="Project 3 Screenshot 1" class="w-full h-48 object-cover rounded carousel-item">
+                    <img src="assets/project3_2.png" alt="Project 3 Screenshot 2" class="w-full h-48 object-cover rounded carousel-item hidden">
+                    <img src="assets/project3_3.png" alt="Project 3 Screenshot 3" class="w-full h-48 object-cover rounded carousel-item hidden">
+                    <button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-l prev">&#10094;</button>
+                    <button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-r next">&#10095;</button>
+                </div>
+                <h3 class="text-xl mt-2">U-Step</h3>
+                <p class="mt-1">Introducing U-Step, an innovative system designed to automate and streamline shoe policy compliance.</p>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="max-w-4xl mx-auto p-4 bg-white shadow-md mt-4">
+        <h2 class="text-2xl border-b-2 border-gray-800 pb-2">Education</h2>
+        <ul class="mt-2">
+            <li>(In Progress) Bachelor's Degree in Computer Science - University of Science and Technology of Southern Philippines</li>
+        </ul>
+    </section>
+    <section id="skills" class="max-w-4xl mx-auto p-4 bg-white shadow-md mt-4">
+        <h2 class="text-2xl border-b-2 border-gray-800 pb-2">Skills</h2>
+        <ul class="mt-2">
+            <li>Programming Languages: Python, Java, C++</li>
+            <li>Web Development: HTML, CSS, JavaScript, CSS</li>
+            <li>Backend Development: MySQL, phpMyAdmin </li>
+        </ul>
+    </section>
+    <section id="contacts" class="max-w-4xl mx-auto p-4 bg-white shadow-md mt-4">
+        <h2 class="text-2xl border-b-2 border-gray-800 pb-2">Contacts</h2>
+        <form action="https://formspree.io/f/{your_form_id}" method="POST" class="mt-4">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700">Name</label>
+                <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700">Email</label>
+                <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700">Message</label>
+                <textarea id="message" name="message" class="w-full p-2 border border-gray-300 rounded" required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Send</button>
+        </form>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 p-6 mt-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-200">Quick Links</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#about" class="hover:text-blue-400">About Me</a></li>
+                    <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+                    <li><a href="#education" class="hover:text-blue-400">Education</a></li>
+                    <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+                    <li><a href="#contacts" class="hover:text-blue-400">Contacts</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Information -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-200">Contact Information</h3>
+                <ul class="mt-4 space-y-2">
+                    <li>Email: <a href="mailto:example@example.com" class="hover:text-blue-400">iszarate9@gmail.com</a></li>
+                    <li>Phone: <a href="tel:+123456789" class="hover:text-blue-400">+639054209613</a></li>
+                    <li>Location: Cagayan de Oro, Philippines</li>
+                </ul>
+            </div>
+    
+            <!-- Social Media -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-200">Follow Me</h3>
+                <div class="flex mt-4 space-x-4">
+                    <a href="https://www.facebook.com/iszrt" class="hover:text-blue-400" aria-label="Facebook" target="_blank"> 
+                        <svg xmlns="https://www.facebook.com/iszrt" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 6.627 5.373 12 12 12s12-5.373 12-12zm-14 9v-8h-3v-3h3v-2c0-2.761 1.791-4 4.359-4 1.31 0 2.641.098 2.641.098v3h-1.5c-1.229 0-1.5.75-1.5 1.5v1.402h3l-.391 3h-2.609v8h-3.5z" />
+                        </svg>
+                    </a>
+                    <a href="https://x.com/iszrte" class="hover:text-blue-400" aria-label="Twitter" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.611 1.798-1.574 2.165-2.723-.951.564-2.005.974-3.127 1.195-.896-.954-2.173-1.548-3.594-1.548-2.719 0-4.924 2.206-4.924 4.922 0 .386.044.762.128 1.122-4.093-.205-7.725-2.166-10.157-5.144-.424.73-.667 1.579-.667 2.483 0 1.711.87 3.222 2.19 4.107-.807-.025-1.566-.247-2.229-.616v.061c0 2.389 1.701 4.382 3.951 4.835-.414.112-.851.171-1.299.171-.318 0-.627-.03-.929-.086.63 1.963 2.445 3.393 4.6 3.433-1.685 1.319-3.809 2.106-6.115 2.106-.397 0-.79-.023-1.176-.069 2.179 1.397 4.768 2.212 7.548 2.212 9.054 0 14.009-7.496 14.009-13.986 0-.214-.005-.428-.014-.641.961-.693 1.797-1.56 2.457-2.548l-.047-.02z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:text-blue-400" aria-label="LinkedIn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19.992 3c1.104 0 2 .896 2 2v14c0 1.104-.896 2-2 2h-15.985c-1.104 0-2-.896-2-2v-14c0-1.104.896-2 2-2h15.985zm-11.497 16h-3v-10h3v10zm-1.5-11.267c-.967 0-1.757-.79-1.757-1.758 0-.968.79-1.757 1.757-1.757s1.758.789 1.758 1.757c0 .968-.79 1.758-1.758 1.758zm12 11.267h-3v-5.333c0-1.267-.469-2-1.468-2-.796 0-1.288.553-1.5 1.084-.078.177-.097.42-.097.666v5.583h-3s.039-9 0-10h3v1.422c.4-.617 1.112-1.422 2.738-1.422 1.996 0 3.502 1.307 3.502 4.116v5.884z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-6 text-center border-t border-gray-700 pt-4">
+            <p>&copy; 2024 Ismael Sulpicio G. Zarate. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
