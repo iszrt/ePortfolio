@@ -21,7 +21,7 @@ This ePortfolio is a personal website designed to highlight my journey in comput
 
 ## How to View the ePortfolio
 You can view the live site hosted on GitHub Pages:
-[Live Link Here](https://<your-github-username>.github.io/<repository-name>/)
+[https://iszrt.github.io/ePortfolio/](https://<your-github-username>.github.io/<repository-name>/)
 
 ## How to Replicate or Contribute
 If you would like to replicate or contribute to this project, follow these steps:
