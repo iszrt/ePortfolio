@@ -1,67 +1,46 @@
-# ePortfolio Repository
-
-Welcome to the repository for my **ePortfolio**, showcasing my projects, skills, and educational background as a computer science student.
+# ePortfolio
 
 ## Description
-This ePortfolio is a personal website designed to highlight my journey in computer science. It features an about section, a showcase of completed projects, educational milestones, and a contact form for networking or collaboration opportunities. The website is built with a minimalistic design, using modern web development technologies to ensure responsiveness and accessibility.
 
-## Features
-- **About Me**: A brief introduction to who I am and my passion for computer science.
-- **Projects**: Highlights of some of the key projects I have worked on, complete with descriptions and carousel-based images.
-- **Education**: Information about my academic journey.
-- **Skills**: A list of technical skills in programming, web development, and backend technologies.
-- **Contact Form**: A simple and user-friendly form for visitors to get in touch.
-- **Footer**: Links to my social media accounts and GitHub profile.
+This repository hosts my personal ePortfolio showcasing my projects, skills, and educational background. It serves as a professional representation of my expertise and journey as a computer scientist.
+
+**Live Demo**: [https://iszrt.github.io/ePortfolio/](https://iszrt.github.io/ePortfolio/)
 
 ## Technologies Used
-- **HTML**: Structure and content of the web pages.
-- **CSS (TailwindCSS)**: For styling and layout.
-- **JavaScript**: Adding interactivity (e.g., carousel functionality).
-- **GitHub Pages**: Hosting the ePortfolio online.
 
-## How to View the ePortfolio
-You can view the live site hosted on GitHub Pages:
-[https://iszrt.github.io/ePortfolio/](https://<your-github-username>.github.io/<repository-name>/)
+- HTML5
+- CSS3 (Tailwind CSS)
+- JavaScript
+- GitHub Pages (for deployment)
 
-## How to Replicate or Contribute
-If you would like to replicate or contribute to this project, follow these steps:
+## How to Replicate
 
-### Clone the Repository
-1. Open your terminal and clone this repository:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-github-username>/<repository-name>.git
+   git clone https://github.com/iszrt/ePortfolio.git
    ```
-2. Navigate into the project folder:
+2. Navigate to the project directory:
    ```bash
-   cd <repository-name>
+   cd ePortfolio
    ```
+3. Open `index.html` in your preferred browser to view the ePortfolio locally.
 
-### Setup
-No additional dependencies are required, but you can use a local development server for live preview. For example, if you have Python installed:
-```bash
-python -m http.server
-```
-Then open `http://localhost:8000` in your browser.
+## How to Contribute
 
-### Contributing
-1. Fork this repository.
-2. Create a new branch:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
    ```bash
-   git checkout -b feature-branch-name
+   git checkout -b feature-name
    ```
-3. Make your changes and commit:
+3. Commit your changes with a descriptive message:
    ```bash
-   git commit -m "Description of changes"
+   git commit -m "Add new feature or fix"
    ```
-4. Push the branch:
+4. Push your branch to your fork:
    ```bash
-   git push origin feature-branch-name
+   git push origin feature-name
    ```
-5. Create a Pull Request on GitHub.
+5. Open a pull request describing your changes.
 
-## Feedback
-If you have suggestions or questions, feel free to contact me through the website or by creating an issue in this repository.
-
----
-Thank you for checking out my ePortfolio!
+Thank you for visiting and contributing!
 
